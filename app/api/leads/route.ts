@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { sql } from "@/lib/db";
+import { getSql } from "@/lib/db";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -39,6 +39,7 @@ export async function POST(request: Request) {
   }
 
   try {
+    const sql = getSql();
     const rows = await sql`
       INSERT INTO leads (nome, empresa, email, telefone, mensagem)
       VALUES (${nome}, ${empresa}, ${email}, ${telefone}, ${mensagem})
