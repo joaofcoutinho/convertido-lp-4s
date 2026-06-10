@@ -1,4 +1,4 @@
-import ContactForm from "@/components/ContactForm";
+import KommoForm from "@/components/KommoForm";
 
 export default function CtaFinal() {
   return (
@@ -17,7 +17,7 @@ export default function CtaFinal() {
                 o marketing da sua empresa em crescimento real e mensurável.
               </p>
             </div>
-            <ContactForm />
+            <KommoForm />
           </div>
         </div>
       </div>

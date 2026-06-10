@@ -50,7 +50,7 @@ const services: Service[] = [
         <path d="M1 1h4l2.68 13.39a2 2 0 002 1.61h9.72a2 2 0 002-1.61L23 6H6" />
       </svg>
     ),
-    title: "Assessoria para E-commerce",
+    title: "Assessoria para E‑commerce",
     desc: "Gestão 360° para quem vende insumos, equipamentos ou soluções para o setor logístico. Da estrutura da loja à conversão final, escalando vendas com estratégia.",
     feats: [
       "Estruturação e otimização de loja virtual",
