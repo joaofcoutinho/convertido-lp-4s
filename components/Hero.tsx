@@ -1,3 +1,5 @@
+import { waLink } from "@/lib/whatsapp";
+
 export default function Hero() {
   return (
     <section className="hero">
@@ -13,10 +15,15 @@ export default function Hero() {
           </h1>
           <p className="hero-sub reveal d2">
             Mais de 20 anos especializados em estratégias de crescimento para empresas de
-            logística e transporte. Aqui, planejamento não é documento — é rota.
+            logística e transporte. Aqui, planejamento não é documento. É rota.
           </p>
           <div className="hero-ctas reveal d3">
-            <a href="#contato" className="btn-primary">
+            <a
+              href={waLink("Olá! Quero meu planejamento estratégico com a Convertido.")}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary"
+            >
               Quero meu planejamento estratégico &rarr;
             </a>
             <a href="#metodologia" className="btn-outline">

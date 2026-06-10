@@ -8,7 +8,7 @@ export default function Footer() {
             <img src={encodeURI("/Header-Digital-Product-V1-1 (4).webp")} alt="Convertido" />
           </div>
           <p className="footer-copy">
-            &copy; 2025 Convertido Marketing &mdash; Serra, Espírito Santo.
+            &copy; 2025 Convertido Marketing · Serra, Espírito Santo.
           </p>
           <ul className="footer-links">
             <li>

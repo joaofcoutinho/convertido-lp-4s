@@ -18,7 +18,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Convertido — Marketing para Logística & Transporte",
+  title: "Convertido · Marketing para Logística & Transporte",
   description:
     "Mais de 20 anos especializados em estratégias de crescimento para empresas de logística e transporte.",
 };

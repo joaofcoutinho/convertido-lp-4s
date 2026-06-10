@@ -1,21 +1,21 @@
 const cards = [
   {
-    name: "01 — Streaming",
+    name: "01 · Streaming",
     letter: "Assistir",
     desc: "Sua marca em movimento. Vídeos institucionais, cases de operação e conteúdo em áudio que educam o mercado, geram autoridade e constroem reputação para sua empresa no setor.",
   },
   {
-    name: "02 — Scrolling",
+    name: "02 · Scrolling",
     letter: "Navegar",
     desc: "Presença estratégica onde seus clientes navegam. Conteúdo que para o dedo, gera reconhecimento de marca e mantém sua empresa relevante no dia a dia do decisor B2B.",
   },
   {
-    name: "03 — Search",
+    name: "03 · Search",
     letter: "Pesquisar",
     desc: "Quando um tomador de decisão pesquisa por serviço logístico, sua empresa aparece. SEO técnico, Google Ads e captura de intenção de compra ativa no setor.",
   },
   {
-    name: "04 — Shopping",
+    name: "04 · Shopping",
     letter: "Comprar",
     desc: "Cada lead tem custo. Cada oportunidade tem valor. Campanhas de performance otimizadas para converter o contato certo no momento certo da jornada de compra.",
   },

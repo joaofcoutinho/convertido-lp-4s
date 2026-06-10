@@ -1,3 +1,5 @@
+import { waLink } from "@/lib/whatsapp";
+
 const steps = [
   {
     n: "01",
@@ -9,7 +11,7 @@ const steps = [
     n: "02",
     delay: "d1",
     title: "Mapeamento da Jornada do Cliente",
-    desc: "Identificamos como seu cliente ideal pesquisa, avalia e decide por um operador logístico — e onde sua empresa precisa estar em cada etapa dessa jornada.",
+    desc: "Identificamos como seu cliente ideal pesquisa, avalia e decide por um operador logístico, e onde sua empresa precisa estar em cada etapa dessa jornada.",
   },
   {
     n: "03",
@@ -47,7 +49,14 @@ export default function Discovery() {
               momento que sua empresa vive agora.
             </p>
             <div className="reveal d3">
-              <a href="#contato" className="btn-primary">Quero meu Discovery &rarr;</a>
+              <a
+                href={waLink("Olá! Quero meu Discovery com a Convertido.")}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-primary"
+              >
+                Quero meu Discovery &rarr;
+              </a>
             </div>
           </div>
           <div className="disc-steps">

@@ -71,7 +71,7 @@ export default function Services() {
             Tudo que sua operação<br />de marketing precisa.
           </h2>
           <p>
-            Três pilares que cobrem desde o planejamento até a conversão final — integrados
+            Três pilares que cobrem desde o planejamento até a conversão final, integrados
             pela metodologia 4S.
           </p>
         </div>

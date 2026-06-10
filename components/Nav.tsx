@@ -1,3 +1,5 @@
+import { waLink } from "@/lib/whatsapp";
+
 export default function Nav() {
   return (
     <nav className="nav" id="nav">
@@ -13,7 +15,14 @@ export default function Nav() {
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#resultados">Resultados</a></li>
           </ul>
-          <a href="#contato" className="btn-primary">Falar com especialista &rarr;</a>
+          <a
+            href={waLink("Olá! Vim pelo site da Convertido e quero falar com um especialista.")}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn-primary"
+          >
+            Falar com especialista &rarr;
+          </a>
         </div>
       </div>
     </nav>
